@@ -10,8 +10,8 @@
             {
                 var cardObject = (cardType.Equals(typeof(PrePaidCardAdapter)) ? Activator.CreateInstance(cardType, prePaidCard) : Activator.CreateInstance(cardType)) as ICard;
                 Console.WriteLine(cardObject?.GetCardDetail(123));
-                Console.WriteLine(cardObject?.GetTotalAmount(1234));
-                Console.WriteLine("---");
+                Console.WriteLine($"Total Amount for {cardObject?.GetType().Name} : {cardObject?.GetTotalAmount(1234)}");
+                Console.WriteLine("----------------------------");
             }
 
 
