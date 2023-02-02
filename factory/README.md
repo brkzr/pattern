@@ -9,7 +9,7 @@ Kullanım amacını ve faydalarını özetlersek:
 - Test yazmayı kolaylaştırır.
 - Single Responsibility ve Open/Closed Prensiplerine (**SO**LID) uygunluğu kolaylaştırır.
 ---
->Repodaki örnekte [Golang](go.dev) kullanılmıştır. Class ve kalıtım (inheritance) gibi OOP özelliklerinin bulunmaması nedeniyle, klasik factory pattern, go dilinde uygulanamamaktadır. Ama factory pattern'in basit bir şeklini uygulayabiliriz.
+>Repodaki örnekte [Golang](https://go.dev) kullanılmıştır. Class ve kalıtım (inheritance) gibi OOP özelliklerinin bulunmaması nedeniyle, klasik factory pattern, go dilinde uygulanamamaktadır. Ama factory pattern'in basit bir şeklini uygulayabiliriz.
 
 Örnekte, factory pattern kullanılarak  çeşitli platformlara ait oyunlar oluşturulmuştur.
 
