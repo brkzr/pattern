@@ -1,6 +1,6 @@
 
 # Factory Design Pattern
-Factory design pattern; **yaratimsal (creational)** design pattern kategorisindedir. Nesne yaratmak icin, standart bir mimari sunar.
+Factory design pattern; **yaratımsal (creational)** design pattern kategorisindedir. Nesne yaratmak icin, standart bir mimari sunar.
 
 Kullanım amacını ve faydalarını özetlersek:
 - Nesneyi yaratan kodu, nesneyi kullanan koddan ayırır. Bağımlılıkları azaltır.
